@@ -1,0 +1,37 @@
+body {
+    background-image: url(../images/dark-honeycomb.png)
+}
+
+.section {
+    background-color: white;
+    width: 500px;
+}
+
+.jumbotron{
+    color: white;
+    background-color: white; 
+    height: 80%;
+    max-width: 80%;
+    position: fixed;
+    padding: 0px;
+    left: 10%;
+    top: 15%;
+    background-position: center;
+  }
+
+  .jumbo-image {
+      padding: 2px;
+      
+  }
+
+  .row-head {
+    border-bottom: 1px solid black;
+    padding: 5px;
+
+  }  
+
+  .jumbo-image{ 
+    width:100%;
+    height: auto;
+  }
+  
