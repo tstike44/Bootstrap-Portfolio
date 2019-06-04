@@ -3,16 +3,12 @@ body {
     background-image: url(../images/dark-honeycomb.png)
 }
 
-
-
-
 .section {
     background-color: white;
     width: 500px;
 }
 
 .jumbotron  {  
-
     background-color: white; 
     max-height: 100%;
     max-width: 80%;
@@ -23,10 +19,10 @@ body {
   }
   
   .img {
-      padding: 5px;
-      max-height: 300px;
-      max-width: 220px;
-      }
+     padding: 5px;
+     max-height: 300px;
+     max-width: 220px;
+    }
 
   .row-head {
     border-bottom: 1px solid black;
@@ -43,45 +39,44 @@ body {
     margin-right: 10px; 
   }
   
-
-  @media screen and (max-width: 768px) {
-    .jumbotron {
-      background-color: #f8c;
-    }
-
-    .btn { 
-      margin-inline-start: 3px;
-
-    }
-    .navbar-brand {
-    margin: auto;
-      }
-
-      .form-control {
-        width: 70%;
-      }
-
-      .nav-item {
-        padding: 3px;
-
-      }
-    
-      .navbar-nav { 
-        flex-direction: row;
-        /* padding-left: 50px; */
-                }
-
-
-      .form-inline {
-            margin: auto;
-
-          }
-      .navbar-brand, .btn-outline-success, .navbar-nav {
-              margin: auto;
-            }
-            #exampleFormControlInput1, #exampleFormControlTextarea1 {
-              width: 100%;
-            }
+  .email-me {
+    margin: 20px;
   }
+  
+@media screen and (max-width: 768px) {
+   .jumbotron {
+    background-color: #f8c;
+  }
+
+  .btn { 
+    margin-inline-start: 3px;
+  }
+   .navbar-brand {
+    margin: auto;
+   }
+
+   .form-control {
+     width: 70%;
+    }
+
+  .nav-item {
+    padding: 3px;
+  }
+    
+  .navbar-nav { 
+    flex-direction: row;
+   
+   }
+
+  .form-inline {
+    margin: auto;
+  }
+  .navbar-brand, .btn-outline-success, .navbar-nav {
+    margin: auto;
+   }
+   #exampleFormControlInput1, #exampleFormControlTextarea1 {
+      width: 100%;
+   }
+}
   
   
