@@ -42,7 +42,16 @@ body {
   .email-me {
     margin: 20px;
   }
-  
+  #port-img{
+    height:200px;
+    width:300px;
+    margin-left: 20px;
+    margin-top:10px;
+  }
+  .proj-bod {
+    color:white;
+    font-size: 20px
+  }
 @media screen and (max-width: 768px) {
    .jumbotron {
     background-color: #f8c;
